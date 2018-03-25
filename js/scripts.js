@@ -10,7 +10,7 @@ $( document ).ready(function() {
     $('.projects').css({'height' : state? '0px' : '38vw', "width" : state? '0px': '38vw'});
     $('.logo-right').css({"transform" : state? 'translateX(0px)' : "translateX(30vw)"});
     $('.logo-left').css({"transform" : state? 'translateX(0px)' : "translateX(-30vw)"});
-    $('.decoration').css({'height' : state? '0px' : '65vw', 'width' : state? '0px' : '65vw', 'border-color' : state? 'transparent' : 'rgba(255,255,255,0.8)'});
+    $('.decoration').css({'height' : state? '0px' : '58vw', 'width' : state? '0px' : '58vw', 'border-color' : state? 'transparent' : 'rgba(255,255,255,0.8)'});
     state = !state;
   });
   $('.idea').on('click', function(){
