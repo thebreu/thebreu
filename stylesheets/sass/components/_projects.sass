@@ -17,7 +17,7 @@
 .project-board
   height: 50vh
   position: absolute
-  width: 100vw
+  width: 100vh
   transform: rotate(-45deg)
   display: flex
   justify-content: center
@@ -37,3 +37,24 @@
 
     transition: all 1s ease-in-out
     z-index: 4
+.project-content
+  height: 80%
+  width: 100%
+  background-color: black
+  z-index: 5
+  position: absolute
+  box-shadow: 0px 14px 20px 4px rgba(0,0,0,0.3)
+  display: flex
+  justify-content: center
+  align-items: center
+  .idea
+    height: 100%
+    width: 600px
+    
+    background:
+      image: url('imgs/portfolio-idea.png')
+      size: contain
+      position: center
+      repeat: no-repeat
+    &:hover
+      cursor: pointer
