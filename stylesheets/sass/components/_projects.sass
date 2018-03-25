@@ -1,22 +1,39 @@
 .projects
-  height: 50px
-  width: 50px
-  background-color: blue
-  border: 1px solid red
+  height: 0px
+  width: 0px
+  background-color: rgba(0,0,0,.2)
   position: absolute
   transform: rotate(45deg)
   display: flex
   justify-content: center
   align-items: center
   overflow: hidden
+  transition: all 1s ease-in-out
+  z-index: 4
+
+
+
 
 .project-board
   height: 50vh
   position: absolute
   width: 100vw
   transform: rotate(-45deg)
+  display: flex
+  justify-content: center
+  align-items: center
   background:
     image: url('imgs/paper.png')
     size: cover
     position: center
     repeat: no-repeat
+.decoration
+    height: 0px
+    width: 0px
+    border: 5px solid transparent
+    position: absolute
+    transform: rotate(45deg)
+
+
+    transition: all 1s ease-in-out
+    z-index: 4
