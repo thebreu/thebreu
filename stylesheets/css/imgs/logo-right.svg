@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="320px" viewBox="0 0 210 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-29.5%" y="-17.5%" width="177.9%" height="146.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="14" dy="14" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.136803668 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <radialGradient cx="0%" cy="100%" fx="0%" fy="100%" r="197.274718%" gradientTransform="translate(0.000000,1.000000),scale(1.000000,0.588059),rotate(-59.541953),translate(-0.000000,-1.000000)" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.190840127" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.362262228" offset="100%"></stop>
+        </radialGradient>
+        <polygon id="path-3" points="148.190909 0 22 126.190909 147.809091 252 0 252 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-424.000000, -234.000000)">
+            <g id="Group" filter="url(#filter-1)" transform="translate(438.000000, 254.000000)">
+                <g id="Combined-Shape" transform="translate(74.095454, 126.000000) scale(-1, 1) translate(-74.095454, -126.000000) ">
+                    <use fill="#D8D8D8" xlink:href="#path-3"></use>
+                    <use fill="url(#radialGradient-2)" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
