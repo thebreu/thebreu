@@ -11,11 +11,8 @@
   transition: all 1s ease-in-out
   z-index: 4
 
-
-
-
 .project-board
-  height: 50vh
+  height: 60vh
   position: absolute
   width: 100vh
   transform: rotate(-45deg)
@@ -33,13 +30,36 @@
     border: 8px solid transparent
     position: absolute
     transform: rotate(45deg)
-
-
     transition: all 1s ease-in-out
     z-index: 4
+.arrow-left
+  height: 0px
+  width: 0px
+  position: absolute
+  z-index: 20
+  transition: all 1s ease-in-out
+
+  background:
+    image: url('imgs/arrow-left.png')
+    size: contain
+    repeat: no-repeat
+    position: center
+.arrow-right
+  height: 0px
+  width: 0px
+  position: absolute
+  z-index: 20
+  transition: all 1s ease-in-out
+  background:
+    image: url('imgs/arrow-right.png')
+    size: contain
+    repeat: no-repeat
+    position: center
+  &:hover
+    cursor: pointer
 .project-content
-  height: 80%
-  width: 100%
+  height: 90%
+  width: 3700px
   background-color: black
   z-index: 5
   position: absolute
@@ -50,11 +70,49 @@
   .idea
     height: 100%
     width: 600px
+    &:hover
+      cursor: pointer
 
+  .one
     background:
       image: url('imgs/portfolio-idea.png')
       size: contain
       position: center
       repeat: no-repeat
-    &:hover
-      cursor: pointer
+  .two
+    background:
+      image: url('imgs/cchange.png')
+      size: contain
+      position: center
+      repeat: no-repeat
+  .three
+    background:
+      image: url('imgs/big buffalo.png')
+      size: contain
+      position: center
+      repeat: no-repeat
+
+  .four
+    background:
+      image: url('imgs/blue floppy.png')
+      size: contain
+      position: center
+      repeat: no-repeat
+  .five
+    background:
+      image: url('imgs/DROWNER.png')
+      size: contain
+      position: center
+      repeat: no-repeat
+  .six
+    background:
+      image: url('imgs/large icon copy 13.png')
+      size: contain
+      position: center
+      repeat: no-repeat
+  .seven
+    background:
+      image: url('imgs/white casette.png')
+      size: contain
+      position: center
+      repeat: no-repeat

@@ -1,3 +1,4 @@
+//FADES THE ENTIRE WEBPAGE WHILE VIEWING PROJECT CONTENT
 .viewFade
   height: 100vh
   width: 100vw
@@ -9,6 +10,7 @@
   justify-content: center
   align-items: center
   display: none
+//BACKPLATE FOR THE PROJECT CONTENT VIEW MODE
 .viewWrap
   height: 90vh
   width: 90vw
@@ -19,6 +21,7 @@
   display: flex
   justify-content: center
   align-items: center
+//ESCAPE BUTTON FOR VIEW MODE
 .exit
   height: 40px
   width: 40px
@@ -29,6 +32,10 @@
     size: 20px
     repeat: no-repeat
     color: rgba(255,255,255,0.4)
+  transition: all 300ms ease-in-out
+  &:hover
+    background-color: rgba(255,255,255,0.5)
+    transform: scale(1.1)
 
   position: absolute
   box-shadow: 0px 14px 20px 4px rgba(0,0,0,0.3)
@@ -37,6 +44,7 @@
   margin: 20px
   hover:
   cursor: pointer
+//CURRENT PROJECT BEING VIEWED
 .view-content
   height: 90%
   width: 90%

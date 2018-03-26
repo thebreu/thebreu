@@ -10,22 +10,27 @@
   display: flex
   justify-content: space-between
   align-items: center
+  margin-top: 20px
 .name
   margin-left: 6vw
   font-size: 2em
   font-weight: 300
   color:  rgba(255,255,255,0.5)
+  text-transform: uppercase
+
 .navigation
   margin-right: 6vw
 
   .name
-
+    font-family: 'blackAnimal'
   li
     display: inline-block
-    margin-right: 20px
     user-select: none
     font-size: 1.5em
     font-weight: 300
+    margin-right: 20px
+    text-transform: uppercase
+    text-shadow: 0px 3px 3px black
     &:first-child
       color: white
       &:hover
@@ -37,8 +42,55 @@
 
 
     &:nth-child(2)
-      color: blue
+      color: white
       &:hover
         cursor: pointer
     &:last-child
-      color: green
+      color: white
+      display: none
+
+@media only screen and (max-width: 900px)
+  .nav
+    margin-top: -15vh
+    width: 100vw
+    background-color: rgba(0,0,0,0.8)
+    margin-left: -45px
+    display: flex
+    justify-content: space-around
+    align-items: center
+    padding-bottom: 10px
+    .name
+      margin-right: 20px
+    .navigation
+      margin-right: 33px
+  .contact
+    justify-content : center
+    position: absolute
+    margin-bottom: -14vh
+    cursor: pointer
+    width: 100vw
+    background-color: rgba(0,0,0,0.8)
+    span
+
+      position: absolute
+
+
+
+
+@media only screen and (max-width: 575px)
+  .navigation
+    li
+      &:last-child
+        display: none
+  .nav
+    margin-top: -15vh
+    width: 100vw
+    background-color: rgba(0,0,0,0.8)
+    margin-left: -20px
+    display: flex
+    justify-content: space-around
+    align-items: center
+    .name
+      margin-right: 20px
+    .navigation
+      margin-right: 33px
