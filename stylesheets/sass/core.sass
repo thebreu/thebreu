@@ -1,6 +1,6 @@
 ///imports
 @import 'components/reset'
-@import 'components/fonts'
+@import 'components/fontface'
 @import 'components/contentbox'
 @import 'components/nav'
 @import 'components/logo'
@@ -15,6 +15,12 @@ body
   width: 100vw
   overflow: hidden
   font-family: 'Roboto', sans-serif
+  h1
+    font-family: 'Black Animal'
+    font-size: 4em
+    position: relative
+    z-index: 100px
+    text-shadow: 0px 4px 6px rgba(0,0,0,0.3)
 
 .mobile-wrapper
   height: 100vh
@@ -32,3 +38,7 @@ body
   display: flex
   justify-content: center
   align-items: center
+  @media only screen and (max-width: 900px)
+    body
+      h1
+        font-size: 3em
