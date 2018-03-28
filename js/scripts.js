@@ -23,14 +23,14 @@ $( document ).ready(function() {
 
   $('.arrow-right').click(function(){
 
-    $('.project-content').animate({ "left": count < 6?"-=525px" : "-=0px" }, "slow" );
+    $('.project-content').animate({ "left": count < 6?"-=527px" : "-=0px" }, "slow" );
     count <6? count++ : count = 6;
     $('.arrow-left').css('display', 'block');
     count <6? $(this).css({'display' : 'block'}) : $(this).css({'display' : 'none'});
 
   });
   $('.arrow-left').click(function(){
-    $('.project-content').animate({ "left": count > 0? "+=525px" : "+=0px" }, "slow" );
+    $('.project-content').animate({ "left": count > 0? "+=527px" : "+=0px" }, "slow" );
     count >0? count-- : count = 0;
     $('.arrow-right').css('display', 'block');
     count >0? $(this).css({'display' : 'block'}) : $(this).css({'display' : 'none'});
@@ -56,10 +56,16 @@ $( document ).ready(function() {
     $('.arrow-left').css({"transform" : isOpen? 'translateX(0px)' : "translateX(-23vw)", 'height' : isOpen? '0px' : '0px', 'width' : isOpen? '0px' : '0px'});
     $('.arrow-right').css({"transform" : isOpen? 'translateX(0px)' : "translateX(0vw)", 'height' : isOpen? '0px' : '0px', 'width' : isOpen? '0px' : '0px'});
     $('.decoration').css({'height' : isOpen? '0px' : '0px', 'width' : isOpen? '0px' : '0px', 'border-color' : isOpen? 'transparent' : 'transparent'});
-    $('.read-decoration').css({'height' : isOpen? '0px' : '90vh' , 'width' : isOpen? '0px' : '61vw' , 'border-color' : isOpen? 'transparent' : 'rgba(255,255,255,0.8)'});
+    $('.read-decoration').css({'height' : isOpen? '0px' : '80vh' , 'width' : isOpen? '0px' : '61vw' , 'border-color' : isOpen? 'transparent' : 'rgba(255,255,255,0.8)'});
     $('.about-content').css({'height' : isOpen? '0px' : '95vh', 'width' : isOpen? '0px' : '50vw'});
     isOpen = !isOpen;
 
+  });
+  $('.contact').on("click", function(){
+    $('.contactMe').fadeToggle();
+  });
+  $('.exit-contact').on("click", function(){
+    $('.contactMe').fadeToggle();
   });
 
 });
