@@ -63,6 +63,8 @@ $( document ).ready(function() {
   });
   $('.contact').on("click", function(){
     $('.contactMe').fadeToggle();
+    $('.contact-wrap').css('animation',"tossCard 2s ease-out forwards");
+
   });
   $('.exit-contact').on("click", function(){
     $('.contactMe').fadeToggle();

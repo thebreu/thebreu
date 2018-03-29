@@ -407,11 +407,6 @@ table {
   align-items: center;
   justify-content: center;
   display: none; }
-  .contactMe:hover .contact-wrap {
-    animation-duration: 2s;
-    animation-name: tossCard;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out; }
 
 .contact-wrap {
   height: 100vh;
