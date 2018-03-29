@@ -222,6 +222,8 @@ table {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center; }
+  .arrow-left:hover {
+    cursor: pointer; }
 
 .arrow-right {
   height: 0px;
