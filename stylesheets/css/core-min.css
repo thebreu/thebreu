@@ -198,7 +198,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("imgs/paper.png");
+  background-image: url("imgs/paper-min.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -254,37 +254,37 @@ table {
     .project-content .idea:hover {
       cursor: pointer; }
   .project-content .one {
-    background-image: url("imgs/portfolio-idea.png");
+    background-image: url("imgs/portfolio-idea-min.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat; }
   .project-content .two {
-    background-image: url("imgs/cchange.png");
+    background-image: url("imgs/cchange-min.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat; }
   .project-content .three {
-    background-image: url("imgs/bigbuffalo.png");
+    background-image: url("imgs/bigbuffalo-min.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat; }
   .project-content .four {
-    background-image: url("imgs/bluefloppy.png");
+    background-image: url("imgs/bluefloppy-min.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat; }
   .project-content .five {
-    background-image: url("imgs/DROWNER.png");
+    background-image: url("imgs/DROWNER-min.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat; }
   .project-content .six {
-    background-image: url("imgs/largeiconcopy13.png");
+    background-image: url("imgs/largeiconcopy13-min.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat; }
   .project-content .seven {
-    background-image: url("imgs/whitecasette.png");
+    background-image: url("imgs/whitecasette-min.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat; }
@@ -335,7 +335,7 @@ table {
 .view-content {
   height: 90%;
   width: 90%;
-  background-image: url("imgs/background.png");
+  background-image: url("imgs/background.png-min");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -436,7 +436,7 @@ table {
   height: 330px;
   width: 600px;
   position: absolute;
-  background-image: url("imgs/card-front.png");
+  background-image: url("imgs/card-front-min.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -448,7 +448,7 @@ table {
   height: 330px;
   width: 600px;
   position: absolute;
-  background-image: url("imgs/card-back.png");
+  background-image: url("imgs/card-back-min.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -500,7 +500,7 @@ body {
 .background {
   height: 100vh;
   widht: 100vw;
-  background-image: url("imgs/background.png");
+  background-image: url("imgs/background-min.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
