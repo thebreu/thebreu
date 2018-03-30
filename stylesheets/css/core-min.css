@@ -390,7 +390,7 @@ table {
   color: rgba(255, 255, 255, 0.8);
   box-sizing: border-box;
   user-select: none;
-  padding: 50px; }
+  padding: 50px 80px; }
   .lower-nav span {
     padding: 22px;
     cursor: pointer;
