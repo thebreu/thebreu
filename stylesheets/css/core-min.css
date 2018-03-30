@@ -116,15 +116,15 @@ table {
       margin-right: 20px; }
     .nav .navigation {
       margin-right: 33px; }
-  .contact {
-    justify-content: center;
-    position: absolute;
+  .lower-nav {
+    justify-content: space-between;
+    position: relative;
     margin-bottom: -14vh;
-    cursor: pointer;
+    padding: 10px 0px;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.8); }
-    .contact span {
-      position: absolute; } }
+    .lower-nav span {
+      position: relative; } }
 
 @media only screen and (max-width: 575px) {
   .navigation li:last-child {
@@ -140,7 +140,10 @@ table {
     .nav .name {
       margin-right: 20px; }
     .nav .navigation {
-      margin-right: 33px; } }
+      margin-right: 33px; }
+  .about {
+    display: relative;
+    color: white; } }
 
 .logo {
   height: 300px;
@@ -373,10 +376,11 @@ table {
       background-repeat: no-repeat;
       background-position: center; }
 
-.contact {
+.lower-nav {
   position: absolute;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   bottom: 0;
   z-index: 40;
   height: 66px;
@@ -386,10 +390,9 @@ table {
   color: rgba(255, 255, 255, 0.8);
   box-sizing: border-box;
   user-select: none;
-  padding-left: 50px; }
-  .contact span {
-    padding: 44px;
-    margin-bottom: 50px;
+  padding: 50px; }
+  .lower-nav span {
+    padding: 22px;
     cursor: pointer;
     font-size: .7em;
     color: white;
